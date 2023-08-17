@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    height: 80px;
+    width: 100%;
+    background-color: rgb(206, 156, 138);
+    display: flex;
+    /* position: fixed; */
+    
+}
+header > img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+header > nav{
+    margin-top: 25px;
+    margin-left: 15px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+    /* margin-top: 80px; */
+}
+.notice{
+    background-color: brown;
+    height: 500px;
+    width: 100%;
+}
+.notice > spain > img {
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    margin-top:45px;
+    margin-left: 100px;
+    animation-name: lunch;
+    animation-duration: 10.5s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+
+
+}
+@keyframes lunch{
+
+    from{
+
+
+    }
+
+    to{
+      transform: rotate(1turn);
+    }
+
+} 
+.cont1 > p{
+    color: orangered;
+    font-size: 50px;
+    text-align: left;
+    margin-top: -400px;
+    margin-right: 50px;
+    margin-left: 60%;
+}
+.cont2 > p{
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    margin-top: 20px;
+    text-align: left;
+    margin-right: 50px;
+    margin-left: 50%;
+    padding: 10px;
+}
+.cont2 > button{
+    color: white;
+    background-color:orangered;
+    border-radius: 50%;
+    font-size: 30px;
+    margin-top: 60px;
+    margin-left: 63%;
+    border: 0;
+    text-align: center;
+    height: 50px;
+    width: 300px;
+}
+.cont2 > button:hover{
+    background-color:green;
+} 
+/* .notice1{
+    height: 100px;
+    width: 100%;
+    background-color: rgb(49, 155, 141);
+} */
+.img1 > img{
+ height: 180px;
+ width: 180px;
+ border-radius: 50%;
+ margin-left: 20px;
+ margin-top: 20px;
+ padding-top: 20px;
+}
+.flex-container > div > p{
+    font-size: 40px;
+    text-align: center;
+    padding-top: 30px;
+   }
+.flex-container {
+    height: 500px;
+    display: flex;
+    background-color: rgb(49, 155, 141);
+  }
+  
+.flex-container > div {
+    margin: 10px;
+    padding: 20px;
+    /* font-size: 30px; */
+}
+.Container{
+    font-size: 3em;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    /* margin: 100px auto; */
+    /* gap: 100px; */
+    /* justify-content: center; */
+
+}
+/* .Container > div{
+    height: 10px;
+    border: 10px solid white;
+} */
+.Container > div > img{
+    border: 5px solid black;
+    height: 300px;
+    width: 300px;
+    border-radius: 10%;
+    margin-left: 60px;
+    margin-top: 50px;  
+}
+.Container > div > img:hover{
+    border: 10px solid green;
+}
+.section{
+    background-color: rgb(216, 138, 138);
+    
+}
+
+#h4{
+    padding-top: 20px;
+    background-color: rgb(216, 138, 138);
+    color: rgb(248, 203, 0);
+    text-align: center;
+    font-size: 50px;
+    /* margin-left: 50%; */
+}
+footer{
+    background-color: rgb(241, 180, 100);
+}
+footer > button{
+    color: white;
+    background-color:orangered;
+    border-radius: 50%;
+    font-size: 30px;
+    margin-top: 60px;
+    margin-left: 40%;
+    border: 0;
+    text-align: center;
+    height: 50px;
+    width: 300px;
+}
+footer > button:hover{
+    background-color: green;
+}
